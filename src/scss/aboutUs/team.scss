@@ -1,0 +1,13 @@
+.team{
+    .carousel-control-prev-icon, .carousel-control-next-icon{
+        background-image: url("../dist/canva-long-arrow-right-MAB0tfdv29s.png");
+        
+    }
+    
+    h5{
+        @include font_h5(1.125em);
+    }
+    p{
+        @include font_p(.875em);
+    }
+}

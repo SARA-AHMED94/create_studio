@@ -1,0 +1,37 @@
+.section2{
+    .icon1{
+        @extend .bgicon;
+        background-image: url("../images/Forma 1.png");
+    }
+    .icon2{
+        @extend .bgicon;
+        background-image: url("../images/Forma 2.png");
+     
+
+     
+
+    }
+    .icon3{
+        @extend .bgicon;
+        background-image: url("../images/Forma 3.png");
+     
+
+
+    }
+    .icon4{
+        @extend .bgicon;
+        background-image: url("../images/Forma 4.png");
+      
+    }
+    .part2{
+        background-color: $warning;
+       h5{
+             @include font_h5(.75em);
+             &.num{
+                @include font_h5(1.375em);
+             }
+
+        }
+      
+    }
+}

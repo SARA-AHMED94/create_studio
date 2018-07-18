@@ -1,0 +1,30 @@
+footer{
+   background-color:$primary;
+   h5{
+    @include font_h5(1.125em);
+    
+    &.sub{
+        @include font_h5(.875em);
+
+    }
+
+   }
+   p{
+    @include font_p(.875em);
+    }  
+    h4{
+        @include font_h4(.625em);
+
+    }
+
+    h2{
+        border-top:1px solid $warning;
+        width: 30px;
+    }
+    .card-footer{
+        background-color: $footerbg;
+        color: $footercolor;
+        font-family: lato;
+        font-size:.750em ;
+    }
+}

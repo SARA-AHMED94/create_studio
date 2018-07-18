@@ -1,0 +1,21 @@
+.checkout{
+
+label{
+    font-family:  raleway;
+    
+}
+
+   h2{
+        border-top:1px solid $warning;
+        width: 30px;
+    }
+li{
+    font-family:  raleway;
+    @include font_h5(1em);
+    
+}
+span{
+    font-family: lato;
+    @include font_h5(1em);
+}
+}

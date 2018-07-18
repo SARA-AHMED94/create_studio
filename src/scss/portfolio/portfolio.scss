@@ -1,0 +1,35 @@
+.portfolio{
+    .nav {
+
+        @include font_p(1.125em);
+        a{
+            color: $info;
+            &.active{
+                color: $warning;
+               
+
+            }
+
+        }
+    }
+
+ p{
+    @include font_p(.875em);
+
+ }
+ h5{
+    @include font_h5(1.125em);
+
+ }
+ h2.linenav{
+     width: 15px;
+     border-top:1px solid $warning;
+     display: none;
+     &.active{
+         display: block;
+     }
+
+
+
+ }
+}

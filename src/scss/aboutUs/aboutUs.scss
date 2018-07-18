@@ -1,0 +1,17 @@
+.aboutUs{
+   
+
+    h5{
+        @include font_h5(.750em);
+        &.mainhead{
+            @include font_h5(1.875em);
+        }
+    }
+    p{
+        @include font_p(.875em);
+    }
+    h4{
+        @include font_h4(.875em);
+    }
+
+}

@@ -1,0 +1,64 @@
+.portfolio{
+    h4{
+        @include font_h4(.875em);
+    }
+    h5{
+       
+        @include font_h5(1.375em);
+        &.card-title{
+                @include font_h5(1em);
+        }
+
+    }
+    .card-img-overlay:hover{
+        filter: opacity(90%);
+        background-color: $white;
+        .hov{
+            display: block;
+
+        }
+    }
+    .hov{
+        display: none;
+
+    }
+    .icon1{
+        @extend .bgicon;
+        background-image: url("../images/Forma 1.png");
+    }
+    .icon2{
+        @extend .bgicon;
+        background-image: url("../images/Forma 2.png");
+     
+
+     
+
+    }
+    .icon3{
+        @extend .bgicon;
+        background-image: url("../images/Forma 3.png");
+     
+
+
+    }
+    .icon4{
+        @extend .bgicon;
+        background-image: url("../images/Forma 4.png");
+      
+    }
+   
+    p{
+        @include font_p(.875em); 
+    }
+    .part2{
+        background-color: $warning;
+       h5{
+             @include font_h5(.75em);
+             &.num{
+                @include font_h5(1.375em);
+             }
+
+        }
+      
+    }
+}

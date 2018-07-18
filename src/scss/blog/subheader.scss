@@ -1,0 +1,43 @@
+  .subheader{
+    background-color: $white;
+
+    .part2{
+        height: 340px; 
+        .blogheader{
+            background-image: url("../images/blog/section-bg-11.jpg"); 
+            background-position: center;
+        }
+        .aboutUsheader{
+            background-image: url("../images/aboutUs/section-bg-9.jpg"); 
+            background-position: right;
+        }
+        .portfolioheader{
+           
+            background-image: url("../images/portfolio/section-bg-8.jpg"); 
+            background-position: top;
+           
+        }
+        .contactheader{
+            background-image: url("../images/contact/section-bg-10.jpg"); 
+            background-position: top;
+
+
+        }
+        .cartheader{
+            background-image: url("../images/cart/section-bg-shop.jpg"); 
+            background-position: right;
+
+        }
+     
+        background-repeat: no-repeat;
+
+        h4{
+            @include font_h4(1.125em);
+        }
+        h5{
+            @include font_h5(2.5em);
+            
+        }
+    }
+
+}

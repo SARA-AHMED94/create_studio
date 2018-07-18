@@ -1,0 +1,60 @@
+.blogSingle{
+    p,ul{
+        @include font_p(.875em);
+       }
+    span{
+        @include font_p(.750em);
+
+
+      }
+      h2{
+        border-top:1px solid $warning;
+        width: 26px;
+    }
+    .leftM{
+        background-color: $gray-500;
+    .media-body{
+        @extend .bgmedia;
+        background-image: url("../images/blogSingle/”2.png");
+    }
+
+}
+.bullet{
+    @include font_p(.750em);
+    list-style: none;
+    li::before {
+        content: "• ";
+        color:$warning; 
+        padding-right: 9px;
+    
+
+      }
+}
+
+
+h5{
+    @include font_h5(1.875em);
+    &.subhead{
+        @include font_h5(1.125em); 
+
+    }
+    &.comment{
+        @include font_h5(1.625em); 
+
+    }
+    &.names{
+        @include font_h5(1.300em); 
+
+
+    }
+    &.side{
+        @include font_h5(.875em); 
+    }
+    &.name{
+        @include font_h5(.750em); 
+
+
+    }
+    
+}
+}

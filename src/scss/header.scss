@@ -1,0 +1,25 @@
+header{
+    @extend .bg;
+    height: 100vh;
+    background-image: url("../images/home-header.jpg");
+  
+
+        h4{
+            @include font_h4(1.125em);
+
+        }
+        h1{
+            font-size: 4.125em;
+            font-family: raleway;
+
+        }
+        
+
+        a{
+           @extend .cta;
+        } 
+        p{
+            @include font_p(.875em);
+        }  
+    
+}

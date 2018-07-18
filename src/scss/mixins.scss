@@ -1,0 +1,9 @@
+@mixin font_p($x){
+    font-size: $x;
+}
+@mixin font_h4($x){
+    font-size: $x;
+}
+@mixin font_h5($x){
+    font-size: $x;
+}

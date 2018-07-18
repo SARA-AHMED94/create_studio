@@ -1,0 +1,48 @@
+.whatWeDo{
+    h4{
+        @include font_h4(.875em);
+    }
+    .media{
+        
+        &.block1{
+            background-image: url("../images/icon 12.png");
+            @extend .bgblock; 
+
+       
+
+        }
+        &.block2{
+            background-image: url("../images/icon 22.png");
+            @extend .bgblock; 
+            
+        }
+        &.block3{
+            background-image: url("../images/icon 32.png");
+            @extend .bgblock; 
+        }
+        &.block4{
+            background-image: url("../images/icon 42.png");
+            @extend .bgblock; 
+        }
+        &.block5{
+            background-image: url("../images/icon 52.png");
+            @extend .bgblock; 
+        }
+        &.block6{
+            background-image: url("../images/icon 62.png");
+            @extend .bgblock; 
+        }
+    }
+   
+    i{
+        color:$warning;
+        font-size: 30px;
+    }
+    h5{
+        @include font_h5(1.375em);
+    }
+    p{
+        @include font_p(.875em);
+        
+    }
+}

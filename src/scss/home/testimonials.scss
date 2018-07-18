@@ -1,0 +1,30 @@
+.testimonials{
+    @extend .bg;
+    background-image: url("../images/section-bg-5.jpg");
+
+    h4{
+        @include font_h4(.875em);
+    }
+    h5{
+       
+        @include font_h5(1.375em);
+        &.name{
+            @include font_h5(1.125em);
+        }
+    }
+    p{
+        @include font_p(1em); 
+        &.subhead{
+            @include font_p(.875em); 
+        }
+    }
+.card-body{
+    background-image: url("../images/quote-icon.png");
+    @extend .bgicon;
+    background-size: 120px 100px;
+
+
+}
+
+ 
+}

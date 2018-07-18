@@ -1,0 +1,20 @@
+.ourwork{
+    @extend .bg;
+    background-image: url("../images/section-bg-19.jpg");
+    
+    h5{
+        @include font_h5(1.375em);
+       }
+       h4{
+         @include font_h4(.875em);
+        
+        }
+        p{
+            @include font_p(.875em);
+        }
+        ul{
+            @include font_p(.75em);
+            list-style: none;
+    
+        }
+}

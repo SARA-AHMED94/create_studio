@@ -1,0 +1,17 @@
+.portfolioSingle{
+    p{
+        @include font_p(.825em);
+
+    }
+    h5{
+        @include font_p(1.125em);
+        &.mainhead{
+            @include font_p(1.875em);
+        }  
+    }
+    h2{
+        border-top:1px solid $warning;
+        width: 30px;
+    }
+   
+}

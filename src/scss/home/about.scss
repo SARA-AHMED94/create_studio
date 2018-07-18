@@ -1,0 +1,21 @@
+.about{
+    @extend .bg;
+    background-image: url("../images/section-bg-4.jpg");
+    h4{
+        @include font_h4(.875em);
+
+    }
+    h5{
+       
+
+        @include font_h5(1.375em);
+    }
+   
+    p{
+        @include font_p(.875em);
+
+    }
+ 
+
+
+}

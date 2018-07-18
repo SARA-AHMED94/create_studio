@@ -1,0 +1,22 @@
+.product{
+
+    thead{
+        background-color: $gray-400;
+ 
+    }
+    h5{
+        @include font_h5(1em);
+        
+
+    }
+    p,td{
+        font-family: lato;
+        @include font_p(.875em);
+    }
+    thead{
+        font-family: raleway;
+        font-weight: bold;
+        @include font_h5(.875em);
+    }
+    
+}

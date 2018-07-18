@@ -1,0 +1,41 @@
+.blog{
+    .hov2:hover{
+        filter: opacity(80%);
+        background-color: $white;
+        .myimg{
+            display: block;
+
+        }
+    }
+    h5{
+       
+        @include font_h5(1.375em);
+        &.more{
+            @include font_h5(.625em); 
+        }
+        &.subhead{
+            @include font_h5(1.125em); 
+
+        }
+        &.side{
+            @include font_h5(.875em); 
+
+        }
+
+
+    }
+    .myimg{
+      display: none;  
+
+    }
+    h2{
+        border-top:1px solid $warning;
+        width: 26px;
+    }
+    p,li{
+        @include font_p(.875em); 
+        &.date{
+            @include font_p(.625em); 
+        }
+    }
+}

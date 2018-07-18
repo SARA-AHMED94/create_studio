@@ -1,0 +1,51 @@
+.bg{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+   
+}
+.cta{
+    font-size: 1em;
+    font-family: raleway;
+    box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.15);
+
+}
+.bgmedia{
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+
+
+.myhr{
+    width: 36px;
+    border-color: $primary;
+
+}
+p,ul{
+    font-family: lato;
+    color: $info;
+}
+h4{
+    font-family: kscript;
+    color: $primary;
+}
+h5{
+    font-family: raleway;
+    color: $primary;
+   
+}
+.bgblock{
+    background-repeat: no-repeat;
+    background-size: 90px 90px;
+    background-position: 20% 20%;
+}
+.bgicon{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 65px 70px;
+}
+h2{
+    border-top:1px solid $primary;
+    width: 36px;
+}
+
